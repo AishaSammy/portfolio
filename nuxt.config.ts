@@ -28,5 +28,8 @@ export default defineNuxtConfig({
     resendApiKey: "",
     contactToEmail: "asammiyeva@gmail.com",
     contactFromEmail: "Portfolio <onboarding@resend.dev>",
+    public: {
+      gtmId: process.env.GTM_ID || "",
+    },
   },
 });

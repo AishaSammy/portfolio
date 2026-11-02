@@ -83,6 +83,12 @@ The form posts to `/api/contact` (`server/api/contact.post.ts`), which sends the
 
 Without `NUXT_RESEND_API_KEY` the form shows an error message instead of sending.
 
+## Google Tag Manager
+
+Set `GTM_ID` to your container id (for example `GTM-XXXXXXX`) in `.env` locally and in the Vercel environment variables. The script and the `<noscript>` fallback are added in `app.vue` only when the id is valid. Leave it empty to disable tracking.
+
+`GTM_ID` is read at build time, so on Vercel you need to redeploy after changing it.
+
 ## Deploying to Vercel
 
 1. Push this repository to GitHub.

@@ -6,7 +6,7 @@ export const profile = {
   location: "Mary City, Turkmenistan",
   email: "asammiyeva@gmail.com",
   github: "https://github.com/AishaSammy",
-  linkedin: "https://linkedin.com/in/ayshe-sammiyeva",
+  linkedin: "https://www.linkedin.com/in/asammiyeva",
   resume: "/resume.pdf",
   summary:
     "Full-stack web developer building APIs and responsive web applications with Laravel, Django, Vue.js and Nuxt.js. Skilled in MySQL and PostgreSQL design, migrations, query optimization, recurring payments, transaction logging and Python-based web scraping.",
